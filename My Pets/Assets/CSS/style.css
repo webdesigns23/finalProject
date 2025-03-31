@@ -1,0 +1,101 @@
+.offpage{
+    color: white;
+    position: absolute;
+    left: 10px;
+}
+a.offpage:focus-visible{
+   color: black;
+}
+
+.intro{
+    font-family: Century, Georgia;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(237, 233, 230);
+    color: black;
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    Color: rgb(51, 71, 14);
+}
+
+.flex img{
+    border: 2px solid black;
+    padding: 3px;
+    width: 30%;
+    border-radius: 100%;
+}
+
+main li{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+  
+.cat{
+    background-color: rgb(165, 151, 110);
+    padding: 5px;
+}
+
+h1{
+    font-family: Broadway, Georgia;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(226, 235, 235);
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+header img{
+    display:block;
+    width: 100%;
+    margin:auto;
+}
+nav ul{
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: Elephant;
+    font-size: 18px;
+    font-variant: small-caps;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(46, 4, 19);
+    background-color: rgb(213, 200, 210);
+    padding: 5px;
+    border: rgb(228, 223, 223) Outset 8px;
+}
+
+nav a:hover{
+    background-color:rgb(46, 4, 19);
+    color: rgb(213, 200, 210);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-evenly;
+    row-gap: 15px;
+    margin:20px;
+}
+
+.grid img{
+    width: 75%;
+    border: 15px ridge black;
+    padding: 10px;
+    background-color: rgb(249, 241, 241);
+}
+
+.grid img:nth-child(odd){
+    border-radius: 50px;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    padding: 5px;
+}
